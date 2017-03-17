@@ -1,0 +1,59 @@
+{
+  "name": "game of life",
+  "version": "1.0.0",
+  "description": "game of life",
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chris110408/gameoflife"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "lei chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chris110408/gameoflife"
+  },
+  "homepage": "https://github.com/chris110408/gameoflife",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "express": "^4.13.4",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "dependencies": {
+    "sharedb": "^1.0.0-beta",
+    "websocket-json-stream": "^0.0.1",
+    "ws": "^1.1.0",
+    "compression": "^1.6.2",
+    "body-parser": "^1.16.1",
+    "material-ui": "^0.17.0",
+    "mongoose": "^4.8.5",
+    "radium": "^0.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  }
+}
